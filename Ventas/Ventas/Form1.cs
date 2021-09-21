@@ -16,5 +16,10 @@ namespace Ventas
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("El exito es la suma de pequeños esfuerzos repetidos dia tras dia.");
+        }
     }
 }
